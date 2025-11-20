@@ -14,9 +14,9 @@ notebooks/
 output*/
 wandb/
 data/
-!*/data/ 
+!*/data/
 evals/
-!*/evals/  
+!*/evals/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -181,3 +181,9 @@ cython_debug/
 .idea/
 
 .vscode/
+
+# token files
+hf_token.txt
+
+# uv
+uv.lock
